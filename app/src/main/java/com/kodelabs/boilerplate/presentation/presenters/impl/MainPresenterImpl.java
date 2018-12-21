@@ -11,7 +11,8 @@ import com.kodelabs.boilerplate.presentation.presenters.base.AbstractPresenter;
 /**
  * Created by dmilicic on 12/13/15.
  */
-public class MainPresenterImpl extends AbstractPresenter implements MainPresenter, WelcomingInteractor.Callback {
+public class MainPresenterImpl extends AbstractPresenter
+        implements MainPresenter, WelcomingInteractor.Callback {
 
     private MainPresenter.View mView;
     private MessageRepository mMessageRepository;
