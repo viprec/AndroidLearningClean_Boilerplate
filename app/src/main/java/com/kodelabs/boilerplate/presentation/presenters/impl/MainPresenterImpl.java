@@ -19,9 +19,10 @@ public class MainPresenterImpl extends AbstractPresenter
 
     public MainPresenterImpl(Executor executor,
                              MainThread mainThread,
-                             View view) {
+                             View view, MessageRepository messageRepository) {
         super(executor, mainThread);
         mView = view;
+        mMessageRepository = messageRepository;
     }
 
     @Override
